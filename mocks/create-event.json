@@ -1,0 +1,8 @@
+{
+    "body": "{\"content\":\"say hello to my littol fren\",\"attachment\":\"scarface.jpg\"}",
+    "requestContext": {
+        "identity": {
+            "cognitoIdentityId": "TonyMontana"
+        }
+    }
+}
