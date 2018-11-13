@@ -1,0 +1,2 @@
+To invoke API functions run:
+    serverless invoke local --function METHOD-HERE --path mocks/MOCK-HERE-event.json
