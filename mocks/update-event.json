@@ -1,0 +1,11 @@
+{
+    "body": "{\"content\":\"new token\",\"attachment\":\"newToken.jpg\"}",
+    "pathParameters": {
+        "id": "bf72f820-e599-11e8-a3bd-41fcd9d830b8"
+    },
+    "requestContext": {
+        "identity": {
+            "cognitoIdentityId": "famSol"
+        }
+    }
+}
