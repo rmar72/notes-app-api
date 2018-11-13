@@ -56,6 +56,7 @@ functions:
             method: post
             cors: true
             authorizer: aws_iam
+
   get:
       handler: src/get.main
       events:
@@ -80,5 +81,14 @@ functions:
         - http:
             path: notes
             method: put
+            cors: true
+            authorizer: aws_iam
+
+  delete:
+      handler: src/delete.main
+      events:
+        - http:
+            path: notes
+            method: delete
             cors: true
             authorizer: aws_iam
