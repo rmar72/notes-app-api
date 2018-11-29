@@ -3,6 +3,7 @@ import * as dynamoDbLib from "../libs/dynamo-lib";
 import { success, failure } from "../libs/response-lib";
 
 export async function main(event, context) {
+    // this fn just catches our data as event and sets up the params for us to send in the try down below
     const data = JSON.parse(event.body);
     const params = {
         TableName: "notes",
