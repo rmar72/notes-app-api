@@ -9,7 +9,7 @@ export async function main(event, context) {
         // - 'noteId': path parameter
         Key: {
             userId: event.requestContext.identity.cognitoIdentityId,
-            noteId: event.pathParameters.id
+            notesId: event.pathParameters.id
         }
     };
 
