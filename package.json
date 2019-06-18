@@ -13,7 +13,7 @@
     "url": "https://github.com/rmar72/notes-app-api"
   },
   "devDependencies": {
-    "aws-sdk": "^2.353.0",
+    "aws-sdk": "^2.477.0",
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.4",
     "babel-plugin-source-map-support": "^1.0.0",
