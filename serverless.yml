@@ -1,5 +1,5 @@
 # NOTE: update this with your service name
-service: notes-app-api
+service: notas-appl-uploads
 
 # Use the serverless-webpack plugin to transpile ES6
 plugins:
