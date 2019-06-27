@@ -2,6 +2,7 @@ import * as dynamoDbLib from '../libs/dynamo-lib';
 import { success, failure } from '../libs/response-lib';
 
 export async function main(event, context){
+    console.log(context)
     const params = {
         TableName: "notes",
         // 'Key' defines the partition key and sort key of the item to be retrieved
