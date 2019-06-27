@@ -61,8 +61,12 @@ functions:
       handler: src/get.main
       events:
         - http:
-            path: notes
+            path: notes/{id}
             method: get
+            request:
+                parameters:
+                    paths:
+                        id: true
             cors: true
             origin: '*'
             headers: # <-- Specify allowed headers
